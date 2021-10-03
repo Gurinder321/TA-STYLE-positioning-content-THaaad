@@ -1,0 +1,22 @@
+h1,
+nav {
+  display: inline-block;
+}
+h1 {
+  width: 80%;
+}
+nav {
+  width: 10%;
+}
+
+p,
+img {
+  display: inline-block;
+}
+p {
+  width: 40%;
+}
+
+img {
+  width: 40%;
+}

@@ -1,22 +1,73 @@
-h1,
-nav {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.header {
+  font-size: 0;
+  background-color: gainsboro;
+  padding: 16px 0;
+}
+.brand img {
+  width: 100px;
+}
+.brand,
+.nav {
   display: inline-block;
+  vertical-align: middle;
 }
-h1 {
-  width: 80%;
+.nav {
+  width: calc(100% - 180px);
+  font-size: 16px;
+  text-align: right;
 }
-nav {
-  width: 10%;
+.nav a {
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 18px;
+  color: black;
 }
-
-p,
-img {
+.article {
+  font-size: 0;
+  padding: 60px 0;
+}
+.article-img {
+  width: 100%;
+}
+.col {
+  width: 50%;
   display: inline-block;
+  font-size: 20px;
 }
-p {
-  width: 40%;
+.article-heading {
+  font-size: 36px;
+  margin-bottom: 16px;
 }
-
-img {
-  width: 40%;
+.article-text {
+  font-size: 20px;
+  line-height: 1.7;
+}
+.article-col {
+  padding-right: 32px;
+}
+.footer {
+  text-align: center;
+  padding: 32px 0;
+  background-color: grey;
+}
+.footer a {
+  margin: 0 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: antiquewhite;
 }

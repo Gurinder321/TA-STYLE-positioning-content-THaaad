@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(233, 233, 233);
+}
+.header {
+  margin: 0 auto;
+  text-align: center;
+}
+.section {
+  background-color: white;
+  margin: 0 30px;
+  padding: 200px 20px;
+  border: 1px solid black;
+  width: 100%;
+}
+.col {
+  border: 1px solid black;
+  float: left;
+  text-align: center;
+  width: 30%;
+  text-align: left;
+}

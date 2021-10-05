@@ -1,0 +1,23 @@
+div {
+  text-align: center;
+}
+.div-1 {
+  width: 33%;
+  float: left;
+  border: 1px solid black;
+}
+.div-2 {
+  width: 33%;
+  float: left;
+  border: 1px solid black;
+}
+.div-3 {
+  width: 32%;
+  float: left;
+  border: 1px solid black;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}

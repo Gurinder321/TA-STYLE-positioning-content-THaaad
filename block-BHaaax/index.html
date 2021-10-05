@@ -1,0 +1,63 @@
+<!-- 
+### Exercise 1
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+3. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/stylesheet/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="" class="brand">
+          <img src="assets/media/logo.png" alt="Brand Logo" />
+        </a>
+
+        <nav class="nav">
+          <a href="">Home</a>
+          <a href="">Blog</a>
+          <a href="">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <article class="article">
+        <div class="container">
+          <div class="col article-col">
+            <h1 class="article-heading">Heading of the article</h1>
+            <p class="article-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id vel cupiditate et
+              necessitatibus nesciunt est, natus numquam exercitationem quam repellendus quia quod
+              quis facere vitae dignissimos molestias, minus, alias dicta? Lorem ipsum dolor sit
+              amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Id vel cupiditate et
+              necessitatibus nesciunt est, natus numquam exercitationem quam repellendus quia quod
+              quis facere vitae dignissimos molestias, minus, alias dicta? Lorem ipsum dolor sit
+              amet
+            </p>
+          </div>
+          <div class="col">
+            <img class="article-img" src="assets/media/img-1.jpeg" alt="" />
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <nav>
+          <a href="">Facebook</a>
+          <a href="">Twitter</a>
+          <a href="">Instagram</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

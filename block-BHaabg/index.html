@@ -1,0 +1,80 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/stylesheet/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container clearfix">
+        <a class="brand" href="">
+          <img class="logo" src="assets/media/Lays-Logo.png" alt="" />
+        </a>
+        <nav class="nav">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <div class="col">
+          <div class="col-child">
+            <h1 class="heading">This is a heading</h1>
+            <p class="para-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum dolorum explicabo
+              illum, quae blanditiis voluptas quas, voluptatibus illo quos repellat, sit cumque
+              quidem vel nihil nisi dignissimos quod cum saepe. Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Harum dolorum explicabo illum, quae blanditiis voluptas
+              quas, voluptatibus illo quos repellat, sit cumque quidem vel nihil nisi dignissimos
+              quod cum saepe. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+              dolorum explicabo illum, quae blanditiis voluptas quas, voluptatibus illo quos
+              repellat, sit cumque quidem vel nihil nisi dignissimos quod cum saepe.
+            </p>
+          </div>
+          <div class="col-child"><img class="image-1" src="assets/media/image-1.png" alt="" /></div>
+        </div>
+      </section>
+      <section>
+        <div class="col-col-2">
+          <div class="col-col-6">
+            <img src="assets/media/img-2.png" alt="" />
+          </div>
+          <div class="col-col-6"><img src="assets/media/img-3.png" alt="" /></div>
+          <div class="col-col-6"><img src="assets/media/img-4.png" alt="" /></div>
+        </div>
+      </section>
+      <section>
+        <div class="col-col-2">
+          <div class="col-col-6"><img src="assets/media/img-5.png" alt="" /></div>
+          <div class="col-col-6"><img src="assets/media/img-6.png" alt="" /></div>
+          <div class="col-col-6"><img src="assets/media/img-7.png" alt="" /></div>
+        </div>
+        <div>
+          <a class="red-btn" href="#top">TOP</a>
+        </div>
+      </section>
+    </main>
+    <footer class="header">
+      <h4>Copyright Gurinder Khabra</h4>
+    </footer>
+  </body>
+</html>
